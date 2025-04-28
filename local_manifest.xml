@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+    <remote name="murtaza"
+            fetch="https://github.com/murtazakolachi/"
+            clone-depth="1" />
+
+    <remote name="github"
+            fetch="https://github.com/"
+            clone-depth="1" />
+ 
+ <!-- Trees -->
+ <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="murtaza" revision="main" />
+ <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="murtaza" revision="main" />
+ <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_apollo" remote="murtaza" revision="main" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="murtaza" revision="fifteen" />
+ 
+</manifest>
