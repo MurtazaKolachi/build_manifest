@@ -5,7 +5,7 @@
             fetch="https://github.com/"
             clone-depth="1" />
 
-    <project path="device/xiaomi/apollo" name="MurtazaKolachi/android_device_xiaomi_apollo" remote="hubgit" revision="16" />
+    <project path="device/xiaomi/apollo" name="MurtazaKolachi/android_device_xiaomi_apollo" remote="hubgit" revision="blki" />
     <project path="vendor/xiaomi/apollo" name="MurtazaKolachi/android_vendor_xiaomi_apollo" remote="hubgit" revision="16" />
     <project path="kernel/xiaomi/apollo" name="MurtazaKolachi/kernel_xiaomi_apollo" remote="hubgit" revision="16" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hubgit" revision="lineage-23.0" />
