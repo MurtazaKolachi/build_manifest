@@ -5,13 +5,13 @@
             fetch="https://github.com/"
             clone-depth="1" />
 
-    <project path="device/xiaomi/apollo" name="MurtazaKolachi/android_device_xiaomi_apollo" remote="hubgit" revision="16" />
+    <project path="device/xiaomi/apollo" name="MurtazaKolachi/android_device_xiaomi_apollo" remote="hubgit" revision="yaap" />
     <project path="vendor/xiaomi/apollo" name="MurtazaKolachi/android_vendor_xiaomi_apollo" remote="hubgit" revision="16" />
     <project path="kernel/xiaomi/apollo" name="MurtazaKolachi/kernel_xiaomi_apollo" remote="hubgit" revision="16" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hubgit" revision="lineage-23.0" />
     <project path="hardware/dolby" name="Mi-Apollo/hardware_dolby" remote="hubgit" revision="moto-1.0" />
     <project path="packages/apps/ViPER4AndroidFX" name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" remote="hubgit" revision="v4a" />
-    <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+    <remove-project name="android_packages_resources_devicesettings" />
     <project path="packages/resources/devicesettings" name="PocoF3Releases/packages_resources_devicesettings" remote="hubgit" revision="aosp-16" />
 
 </manifest>
